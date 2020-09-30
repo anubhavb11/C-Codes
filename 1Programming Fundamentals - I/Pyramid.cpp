@@ -20,8 +20,10 @@ int main(){
         for(int cnt=1;cnt<=i-1;cnt++){
             cout<<val<<" ";
             val=val-1;
+            c++;
+            
         }
-        cout<<endl;
+        cout<<"\n";
    
 
     }
