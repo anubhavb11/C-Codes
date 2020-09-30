@@ -39,7 +39,7 @@ int main() {
     for(int x:v){
         cout<<x<<",";
     }
-    cout<<endl;
+    cout<<"\n";
     //Understand at memory level, what are the differences in the two
     cout<<v.size()<<endl;
     cout<<v.capacity()<<endl; //size of underlying array
